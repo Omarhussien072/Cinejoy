@@ -20,9 +20,8 @@ nav .pillIndicator {
     height: 40px;
 }
 
-nav .pillTransform {
-    transform: translate3d(7px, 0, 0);
-    
+nav .pillTransition {
+    transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1.2)
 }
 
 nav .divider {
@@ -43,4 +42,10 @@ nav .searchIndicator:hover,
     color: #fff;
 
     background-color: #4242424d;
+}
+nav .icon {
+    display: none;
+}
+nav .navItem:global(.active) .icon{
+    display: block;
 }

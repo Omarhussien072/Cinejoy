@@ -133,3 +133,9 @@ html {
     font-family: -apple-system, BlinkMacSystemFont, Inter, sans-serif;
 }
 
+.active {
+    color: black;
+}
+
+
+
