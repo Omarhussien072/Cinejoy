@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <>
             <footer className='w-full relative z-20 py-8 px-6 lg:px-16 mt-auto pb-28 lg:pb-8'>
-                <div className="max-w-7xl">
+                <div className="max-w-7xl m-auto">
                     <div className="flex flex-col items-center gap-6">
                         <div className="flex items-center gap-5">
                             <div className={`w-30`}>
