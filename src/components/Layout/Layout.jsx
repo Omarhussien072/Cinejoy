@@ -6,7 +6,7 @@ import Navbar from '../Navbar/Navbar';
 export default function Layout() {
     return (
         <>
-            <main className='min-h-screen'>
+            <main className='min-h-screen flex flex-col  justify-center items-center'>
                 <Navbar />
                     <Outlet />
                 <Footer />

@@ -29,9 +29,6 @@ nav .navItem {
     transition: all 0.3s ease;
 }
 
-nav .navItem:not(:global(.active)):hover {
-    color: white;
-}
 
 nav .phoneNavItem {
     width: 14vw;
@@ -52,7 +49,6 @@ nav .phoneNavItem:global(.active) svg {
 }
 
 
-
 nav .pillTransition {
     transition: var(--nav-transition);
 }
@@ -68,11 +64,14 @@ nav .settingsIndicator {
     border-radius: 50%;
     transition: 0.3s all ease-out;
 }
+    
+nav .navItem:not(:global(.active)):hover {
+    color: white;
+}
 
-nav .searchIndicator:hover,
-.settingsIndicator:hover {
+nav .searchIndicator:not(:global(.active)):hover,
+.settingsIndicator:not(:global(.active)):hover {
     color: #fff;
-
     background-color: #4242424d;
 }
 
