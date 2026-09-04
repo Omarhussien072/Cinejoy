@@ -119,13 +119,6 @@
     --anim--hover-time: .4s;
     --anim--hover-ease: cubic-bezier(.25, 1, .5, 1);
 
-    --nav-transition: .4s cubic-bezier(.34, 1.56, .64, 1);
-    --nav-fade: .3s ease;
-    --condense-ease: cubic-bezier(.4, 0, .2, 1);
-    --nav-pad: 6px;
-    --nav-item-h: 40px;
-    --default-font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-
 }
 
 html {

@@ -6,9 +6,11 @@ import Navbar from '../Navbar/Navbar';
 export default function Layout() {
     return (
         <>
-            <Navbar />
-                <Outlet />
-            <Footer />
+            <main className='min-h-screen'>
+                <Navbar />
+                    <Outlet />
+                <Footer />
+            </main>
         </>
     );
 }
